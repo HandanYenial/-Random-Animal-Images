@@ -1,0 +1,60 @@
+body {
+	background-image: linear-gradient( 180deg,  rgb(253, 222, 196) 23.8%, rgb(243, 183, 114) 92% );
+	font-family: 'Rock Salt', cursive;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 100vh;
+	margin: 0;
+}
+
+.results {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.result {
+	background-image: linear-gradient( 180deg,  rgb(248, 216, 193) 23.8%, rgb(238, 151, 124) 92% );
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 10px;
+	height: 400px;
+	width: 300px;
+    border:4px solid rgb(247, 125, 81);
+}
+
+.result img {
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.buttons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    
+}
+
+button {
+	background-color: rgb(247, 125, 81);
+	border: 0;
+	border-radius: 4px;
+	color: rgb(3, 0, 0);
+	font-size: 18px;
+	padding: 10px;
+	margin: 10px;
+	width: 300px;
+    font-family: 'Rock Salt', cursive;
+}
+
+button:active {
+	transform: scale(0.98);
+}
+
+button:focus {
+	outline: none
+}
